@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <center>
+        <div class="calculator">
+            </div>
+    <input type="text" id="result" readonly>
+    
+    <table>
+        <tr>
+            <td><button onclick="appendNumber(7)">7</button></td>
+            <td><button onclick="appendNumber(8)">8</button></td>
+            <td><button onclick="appendNumber(9)">9</button></td>
+            <td><button onclick="setOperator('+')">+</button></td>
+         </tr>
+         <tr>
+            <td><button onclick="appendNumber(4)">4</button></td>
+            <td><button onclick="appendNumber(5)">5</button></td>
+            <td><button onclick="appendNumber(6)">6</button></td>
+            <td><button onclick="setOperator('-')">-</button></td>
+         </tr>
+         <tr>
+            <td><button onclick="appendNumber(3)">3</button></td>
+            <td><button onclick="appendNumber(2)">2</button></td>
+            <td><button onclick="appendNumber(1)">1</button></td>
+            <td><button onclick="setOperator('')"></button></td>
+         </tr>
+         <tr>
+            <td><button onclick="appendNumber(0)">0</button></td>
+            <td><button onclick="clearResult()">c</button></td>
+            <td><button onclick="calculate('=')">=</button></td>
+            <td><button onclick="setOperator('/')">+</button></td>
+         </tr>
+    </table>
+    </center>
+    <script src="cal.js"></script>
+    </body>
+   
+
+</html>
+
+<style>
+    body{
+        text-align: center;
+        background-image: url(i);
+       padding-bottom: 100px;
+        background-repeat:no-repeat ;
+        background-size: cover;
+    }
+     button{
+        width: 50px;
+        height: 50px;
+       
+        
+    }
+
+    input{
+        padding: 10px;
+        width: 250px;
+        height: 50x;
+        border-radius: 5px;
+
+    }
+
+
+    
+
+    
+</style>
